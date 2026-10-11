@@ -1,0 +1,68 @@
+body{
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+
+#display{
+    width:100%;
+    height:50px;
+    border:4px solid red;
+    border-radius:10px;
+    animation: FadeIn 6s linear infinite;
+    margin-bottom:20px;
+    background-color:black;
+}
+}
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    
+    
+}
+.btn{
+    border-radius:50%;
+    height:75px;
+    width:75px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    border:4px solid red;
+    animation: FadeIn 12s linear infinite alternate;
+
+    
+}
+.btn:hover{
+    cursor:pointer;
+    transform:scale(1.2);
+
+}
+@keyframes FadeIn{
+        0%{
+            border-color:#FF1900;
+        }
+        20%{
+            border-color:#00FFA5;
+        }
+        40%{
+            border-color:#057DFF;
+        }
+        60%{
+            border-color:#9800FF;
+        }
+        80%{
+            border-color: #FFFA00;
+        }
+        100%{
+            border-color:#FF008C;
+        }
+
+        
+
+    }
+

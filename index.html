@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <h1 class="intro">Hello and welcome to this calculator.</h1>
+    <h1 class="intro">Feel free to punch some numbers in . . .</h1>
+    <h2 class="intro">But make sure to be nice to your keyboard :)</h2>
+    <input type="text" id="display" readonly placeholder="0">
+    <div class="buttons">
+        <button class="btn" id="1" onclick="Number('1')">1</button>
+        <button class="btn" id="2" onclick="Number('2')">2</button>
+        <button class="btn" id="3" onclick="Number('3')">3</button>
+        <button class="btn"id="4" onclick="Number('4')">4</button>
+        <button class="btn" id="5" onclick="Number('5')">5</button>
+        <button class="btn"id="6" onclick="Number('6')">6</button>
+        <button class="btn" id="7" onclick="Number('7')">7</button>
+        <button class="btn" id="8" onclick="Number('8')">8</button>
+        <button class="btn" id="9" onclick="Number('9')">9</button>
+        <button class="btn" id="0" onclick="Number('0')">0</button>
+        <button class="btn" id="add" onclick="Operator('+')">+</button>
+        <button class="btn" id="subtract" onclick="Operator('-')">-</button>
+        <button class="btn" id="multiply" onclick="Operator('*')">*</button>
+        <button class="btn" id="divide" onclick="Operator('/')">/</button>
+        <button class="btn" id="equal" onclick="Calculate()">=</button>
+        <button class="btn" id="clear" onclick="Clear()">C</button>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
