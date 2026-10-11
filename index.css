@@ -7,14 +7,31 @@ body{
     align-items:center;
     overflow:hidden;
 
+.Intro{ 
+    font-size:30px;
+    font-weight:bold;
+    margin-left:20px;
+    margin-right:20px;
+    color:white;
+    text-shadow: 0 0 20px white;
+    
+
+}
+
 #display{
-    width:100%;
-    height:50px;
+    width:60vw;
+    height:10vh;
+    padding: 20px;
     border:4px solid red;
     border-radius:10px;
     animation: FadeIn 6s linear infinite;
     margin-bottom:20px;
     background-color:black;
+    font-size:30px;
+    color:white;
+    text-shadow: 0 0 20px white;
+
+    
 }
 }
 .buttons{
@@ -65,4 +82,6 @@ body{
         
 
     }
+
+
 
