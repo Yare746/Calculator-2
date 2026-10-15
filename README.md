@@ -12,11 +12,9 @@ Features:
 
 How to run Website Locally: 
 1. Clone the repository
-   HTTPS: https://github.com/Yare746/Calculator-2.git
-   GitHub CLI: gh repo clone Yare746/Calculator-2
-   ```bash
-   provided link
-   ```
+   HTTPS: https://github.com/Yare746/Calculator-2.git   
+      GitHub CLI: gh repo clone Yare746/Calculator-2
+
 2. Navigate to the project directory
    ```bash
    cd- Calculator-2
