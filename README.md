@@ -10,6 +10,8 @@ Features:
 -Large and easy to use buttons 
 -Includes four different operators including addition, subtraction, division, multiplication 
 
+How to use the website: Once the calculator is clicked, there will be an introduction. You do NOT have to wait for the introduction to stop and can use the calculator whenever you please. Just press on the buttons for the specific value you want, an operator, the second value you want to include and the equal sign operator for the calculator to evaluate the equation you have inputted. In order to get rid of the evaluated number inside the display box press the C ( stands for clear) 
+
 How to run Website Locally: 
 1. Clone the repository
    HTTPS: https://github.com/Yare746/Calculator-2.git   
